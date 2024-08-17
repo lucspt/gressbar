@@ -19,7 +19,7 @@ class ProgressBar:
         width: int = 20,
         bar_prefix: Optional[str] = "",
     ) -> None:
-        """Initialize a progres bar.
+        """Initialize a progress bar.
 
         Args:
             target (int): The integer denoting the target at which progress is completed.
