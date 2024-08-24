@@ -2,7 +2,7 @@ from typing import Any
 
 from pytest import CaptureFixture
 
-from progress_bar.bar import ProgressBar
+from gressbar.bar import ProgressBar
 
 Capsys = CaptureFixture[Any]
 

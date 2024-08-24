@@ -2,7 +2,7 @@ Hey, this is a simple progress bar package, similar to `tqdm`. Here's how it wor
 
 ```python
 import time
-from progress_bar import ProgressBar
+from gressbar import ProgressBar
 
 # specify a "total" of 10. Progress will be assumed complete at the 10th step.
 p = ProgressBar(10)
@@ -22,7 +22,7 @@ You can also add information to the right of the bar:
 
 ```python
 import time
-from progress_bar import ProgressBar
+from gressbar import ProgressBar
 
 p = ProgressBar(10)
 

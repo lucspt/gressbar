@@ -1,5 +1,5 @@
 [project]
-name = "progress_bar"
+name = "gressbar"
 version = "0.1.0"
 description = "Add your description here"
 authors = []
@@ -7,7 +7,7 @@ dependencies = []
 readme = "README.md"
 requires-python = ">= 3.12"
 
-[tool.rye]
+[tool.rye] 
 managed = true
 dev-dependencies = [
    "mypy>=1.10.1",
@@ -54,7 +54,7 @@ select = [
 length-sort = true
 length-sort-straight = true
 combine-as-imports = true
-known-first-party = ["progress_bar", "tests"]
+known-first-party = ["gressbar", "tests"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -66,4 +66,4 @@ fail_under = 90
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/progress_bar"]
+packages = ["src/gressbar"]
